@@ -96,8 +96,8 @@ export default function App() {
             selectedImage={selectedImage}
             placeholderImageSource={PlaceholderImage}
           />
-        </View>
         {pickedEmoji && <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
+        </View>
       </View>
       {showAppOptions ? (
         <View style={styles.optionsContainer}>
